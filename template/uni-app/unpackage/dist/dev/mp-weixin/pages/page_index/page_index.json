@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "l-circular-progress": "/uni_modules/l-circularProgress/components/l-circularProgress/l-circularProgress",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "mark-kg-vue": "/components/markKg"
+  }
+}

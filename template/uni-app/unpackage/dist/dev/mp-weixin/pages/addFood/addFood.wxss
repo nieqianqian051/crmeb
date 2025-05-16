@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-0568af74 .is-input-border {
+  border-radius: 30px;
+}
+.data-v-0568af74 .uniui-search {
+  color: #BBD345 !important;
+}
+.contrainer.data-v-0568af74 {
+  width: 100%;
+  height: 100vh;
+  background: #F7F7F7;
+}
+.topWrap.data-v-0568af74 {
+  width: 100%;
+  height: 330rpx;
+  padding: 56rpx 35rpx 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.topWrap .topBgImg.data-v-0568af74 {
+  width: 100%;
+  height: 378rpx;
+}
+.topWrap .statusWrap.data-v-0568af74 {
+  font-weight: 400;
+  font-size: 36rpx;
+  color: #000000;
+}
+.topWrap .statusWrap .titleText.data-v-0568af74 {
+  vertical-align: middle;
+}
+.topWrap .searchWrap.data-v-0568af74 {
+  width: 100%;
+  padding-top: 50rpx;
+}
+.topWrap .searchWrap .uni-input.data-v-0568af74 {
+  height: 69rpx;
+  background: pink;
+  border-radius: 34rpx;
+  margin-top: 29rpx;
+}
+.topWrap .topTitle.data-v-0568af74 {
+  width: calc(100% - 70rpx);
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #333333;
+  margin-top: 39rpx;
+  text-align: center;
+}
+.topWrap .topTitle .activeText.data-v-0568af74 {
+  color: #BBD345;
+}
+.foodBox.data-v-0568af74 {
+  width: calc(100% - 96rpx);
+  height: calc(100vh - 438rpx);
+  background: #ffffff;
+  border-radius: 27rpx;
+  padding: 18rpx 20rpx;
+  margin: 0 32rpx;
+  overflow: auto;
+}
+.foodBox .foodItem.data-v-0568af74 {
+  width: 100%;
+  display: flex;
+  padding: 28rpx 0;
+  border-bottom: 2rpx solid #F6F6F6;
+}
+.foodBox .foodItem .foodLeft.data-v-0568af74 {
+  width: 86rpx;
+  margin-right: 33rpx;
+}
+.foodBox .foodItem .foodLeft image.data-v-0568af74 {
+  width: 86rpx;
+  height: 86rpx;
+  border-radius: 28rpx;
+}
+.foodBox .foodItem .foodCenter.data-v-0568af74 {
+  width: calc(100% - 236rpx);
+}
+.foodBox .foodItem .foodCenter .foodName.data-v-0568af74 {
+  width: 100%;
+  height: 58rpx;
+  font-weight: 500;
+  font-size: 28rpx;
+  line-height: 58rpx;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.foodBox .foodItem .foodCenter .foodCount.data-v-0568af74 {
+  width: 100%;
+  height: 32rpx;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.foodBox .foodItem .foodRight.data-v-0568af74 {
+  width: 117rpx;
+  display: flex;
+  align-items: center;
+}
+.foodBox .foodItem .foodRight .foodBtn.data-v-0568af74 {
+  width: 117rpx;
+  height: 54rpx;
+  line-height: 54rpx;
+  background: #FAFFE3;
+  border-radius: 27rpx;
+  color: #2A2A2A;
+  font-size: 24rpx;
+  text-align: center;
+}
+

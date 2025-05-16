@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.area_wrap.data-v-c236e5cc {
+  background-color: #F7F7F7;
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #CCCCCC;
+}
+.popup_wrap.data-v-c236e5cc {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  padding: 38rpx 30rpx;
+}
+.popup_wrap .popup_btn.data-v-c236e5cc {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background: linear-gradient(90deg, #BED84F, #BFD952);
+  border-radius: 39rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  text-align: center;
+}
+.popup_wrap .popup_list.data-v-c236e5cc {
+  width: 100%;
+}
+.popup_wrap .popup_list .popup_item_ver.data-v-c236e5cc {
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+.popup_wrap .popup_list .popup_item_ver .popup_item_area.data-v-c236e5cc {
+  width: 100%;
+}
+.popup_wrap .popup_list .popup_item_ver .popup_item_label.data-v-c236e5cc {
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #333333;
+  margin-bottom: 30rpx;
+}
+.popup_wrap .popup_list .popup_item.data-v-c236e5cc {
+  width: 100%;
+  display: flex;
+  margin-bottom: 60rpx;
+}
+.popup_wrap .popup_list .popup_item .popup_item_left.data-v-c236e5cc {
+  width: 40%;
+  margin-right: 5%;
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #333333;
+}
+.popup_wrap .popup_list .popup_item .popup_item_right.data-v-c236e5cc {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+}
+.popup_wrap .popup_list .popup_item .popup_item_right .popup_item_btn_active.data-v-c236e5cc {
+  background: #F9FFE0 !important;
+  border: 1px solid #B8E000 !important;
+  color: #9DBF02 !important;
+}
+.popup_wrap .popup_list .popup_item .popup_item_right .popup_item_btn.data-v-c236e5cc {
+  width: 181rpx;
+  height: 69rpx;
+  line-height: 69rpx;
+  border-radius: 12rpx;
+  border: 1px solid #DDDDDD;
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 26rpx;
+  color: #383838;
+  text-align: center;
+}
+.popup_wrap .popup_list .popup_item .popup_item_right .popup_item_btn.data-v-c236e5cc:not(:last-of-type) {
+  margin-right: 22rpx;
+}
+.popup_wrap .popup_list .popup_item .popup_item_right text.data-v-c236e5cc {
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #CCCCCC;
+}
+.popup_wrap .popup_list .popup_item .popup_item_right .sel_img.data-v-c236e5cc {
+  width: 13rpx;
+  height: 24rpx;
+  margin-left: 18rpx;
+}
+.popup_wrap .popup_add_wrap.data-v-c236e5cc {
+  width: 100%;
+  padding: 26rpx 15rpx;
+  background: #F3F3F3;
+  display: flex;
+  margin-bottom: 61rpx;
+}
+.popup_wrap .popup_add_wrap .popup_add_item.data-v-c236e5cc {
+  flex: 1;
+}
+.popup_wrap .popup_add_wrap .popup_add_item.data-v-c236e5cc:not(:last-of-type) {
+  margin-right: 15rpx;
+}
+.popup_wrap .popup_add_wrap .popup_add_item .add_label.data-v-c236e5cc {
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 26rpx;
+  color: #000000;
+  margin-bottom: 15rpx;
+}
+.popup_wrap .popup_day_wrap.data-v-c236e5cc {
+  width: 100%;
+  display: flex;
+  margin: 48rpx 0 25rpx;
+}
+.popup_wrap .popup_day_wrap .popup_day_active.data-v-c236e5cc {
+  background: #F9FFE0 !important;
+  border: 1px solid #B8E000 !important;
+  color: #9DBF02 !important;
+}
+.popup_wrap .popup_day_wrap .popup_day_item.data-v-c236e5cc {
+  flex: 1;
+  height: 69rpx;
+  line-height: 69rpx;
+  background: #F3F3F3;
+  border-radius: 12rpx;
+  border: 1px solid #F3F3F3;
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #383838;
+  text-align: center;
+}
+.popup_wrap .popup_day_wrap .popup_day_item.data-v-c236e5cc:not(:last-of-type) {
+  margin-right: 15rpx;
+}
+.popup_wrap .popup_stage_wrap.data-v-c236e5cc {
+  width: 100%;
+  display: flex;
+}
+.popup_wrap .popup_stage_wrap .popup_stage_left.data-v-c236e5cc {
+  width: 50%;
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #333333;
+}
+.popup_wrap .popup_stage_wrap .popup_stage_right.data-v-c236e5cc {
+  width: 50%;
+  text-align: right;
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #333333;
+}
+.popup_wrap .popup_stage_wrap .popup_stage_right text.data-v-c236e5cc {
+  vertical-align: middle;
+}
+.popup_wrap .popup_stage_wrap .popup_stage_right image.data-v-c236e5cc {
+  width: 24rpx;
+  height: 13rpx;
+  margin-left: 12rpx;
+  vertical-align: middle;
+}
+.popup_wrap .popup_box.data-v-c236e5cc {
+  height: calc(100% - 45rpx);
+  overflow: auto;
+  padding-bottom: 60rpx;
+}
+.popup_wrap .popup_title_wrap.data-v-c236e5cc {
+  height: 45rpx;
+  display: flex;
+  margin-bottom: 59rpx;
+}
+.popup_wrap .popup_title_wrap .popup_title_main.data-v-c236e5cc {
+  width: calc(100% - 20rpx);
+  text-align: center;
+  font-family: PingFang SC;
+  font-weight: 600;
+  font-size: 34rpx;
+  color: #000000;
+}
+.popup_wrap .popup_title_wrap .popup_title_close.data-v-c236e5cc {
+  width: 20rpx;
+  height: 20rpx;
+}
+.popup_wrap .popup_title_wrap .popup_title_close image.data-v-c236e5cc {
+  width: 20rpx;
+  height: 20rpx;
+}
+

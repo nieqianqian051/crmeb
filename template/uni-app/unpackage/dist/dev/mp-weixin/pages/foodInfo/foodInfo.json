@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "食物详情",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "ui-echarts": "/uni_modules/ui-echarts/components/ui-echarts/ui-echarts"
+  }
+}

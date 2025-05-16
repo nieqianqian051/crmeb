@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cl-image": "/uni_modules/cl-upload/components/cl-image/cl-image"
+  }
+}

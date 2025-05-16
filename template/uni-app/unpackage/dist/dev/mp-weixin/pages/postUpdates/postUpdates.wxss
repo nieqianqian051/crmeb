@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page_wrap.data-v-108be49c {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 0rpx 37rpx;
+  position: relative;
+}
+.page_wrap .huati_wrap.data-v-108be49c {
+  width: 100%;
+  padding: 47rpx 0;
+  border-bottom: 1rpx solid #F4F4F4;
+  display: flex;
+}
+.page_wrap .huati_wrap .labelImg.data-v-108be49c {
+  width: 29rpx;
+  height: 31rpx;
+  margin-right: 26rpx;
+  margin-top: 19rpx;
+}
+.page_wrap .huati_wrap .huati_text.data-v-108be49c {
+  width: 60rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 26rpx;
+  line-height: 60rpx;
+  color: #000000;
+  margin-right: 24rpx;
+}
+.page_wrap .huati_wrap .dw_box.data-v-108be49c {
+  width: calc(100% - 134rpx);
+  text-align: right;
+}
+.page_wrap .huati_wrap .dw_box image.data-v-108be49c {
+  width: 16rpx;
+  height: 28rpx;
+}
+.page_wrap .huati_wrap .huati_box.data-v-108be49c {
+  width: calc(100% - 134rpx);
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.page_wrap .huati_wrap .huati_box .huati_item.data-v-108be49c {
+  display: inline-block;
+  padding: 12rpx 18rpx;
+  background: #F8F9FA;
+  border-radius: 23rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 24rpx;
+  color: #707071;
+  margin-right: 12rpx;
+}
+.page_wrap .upload_wrap.data-v-108be49c {
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #F4F4F4;
+}
+.page_wrap .newAddImg.data-v-108be49c {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #F9F9F9;
+  font-size: 22rpx;
+  color: #BBBBBB;
+}
+.page_wrap .newAddImg image.data-v-108be49c {
+  width: 34rpx;
+  height: 33rpx;
+}
+.page_wrap .textarea.data-v-108be49c {
+  width: 100%;
+  height: 400rpx;
+}
+.page_wrap .title_wrap.data-v-108be49c {
+  width: 100%;
+  display: flex;
+  padding: 116rpx 0 63rpx;
+}
+.page_wrap .title_wrap image.data-v-108be49c {
+  width: 33rpx;
+  height: 33rpx;
+  margin-top: 8rpx;
+}
+.page_wrap .title_wrap .title_text.data-v-108be49c {
+  width: calc(100% - 156rpx);
+  text-align: center;
+  font-family: PingFang SC;
+  font-weight: 600;
+  font-size: 34rpx;
+  color: #000000;
+}
+.page_wrap .title_wrap .title_btn.data-v-108be49c {
+  width: 123rpx;
+  height: 57rpx;
+  line-height: 57rpx;
+  text-align: center;
+  background: #C6DE4B;
+  border-radius: 28rpx;
+  color: #ffffff;
+  opacity: 0.68;
+}
+.page_wrap .title_wrap .btn_active.data-v-108be49c {
+  opacity: 1 !important;
+}
+

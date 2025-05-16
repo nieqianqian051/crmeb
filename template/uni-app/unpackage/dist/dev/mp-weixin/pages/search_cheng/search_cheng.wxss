@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* crmeb颜色变量 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page_wrap.data-v-623f6974 {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 100rpx 0;
+  position: relative;
+}
+.page_wrap .text_1.data-v-623f6974 {
+  position: absolute;
+  top: 50rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #000000;
+}
+.page_wrap .text_2.data-v-623f6974 {
+  position: absolute;
+  top: 220rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 26rpx;
+  color: #BBD345;
+}
+.page_wrap .circle_wrap1.data-v-623f6974 {
+  width: 880rpx;
+  height: 880rpx;
+  border-radius: 50%;
+  border: 1px solid #BBD345;
+  position: relative;
+  left: -65rpx;
+}
+.page_wrap .circle_wrap2.data-v-623f6974 {
+  width: 550rpx;
+  height: 550rpx;
+  border-radius: 50%;
+  border: 1px solid #BBD345;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.page_wrap .circle_wrap3.data-v-623f6974 {
+  width: 320rpx;
+  height: 320rpx;
+  border-radius: 50%;
+  border: 1px solid #BBD345;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.page_wrap .pmImg.data-v-623f6974 {
+  width: 441rpx;
+  height: 250rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+

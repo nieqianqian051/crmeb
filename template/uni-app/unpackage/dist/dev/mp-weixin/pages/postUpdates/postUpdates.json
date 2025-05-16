@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cl-upload": "/uni_modules/cl-upload/components/cl-upload/cl-upload"
+  }
+}

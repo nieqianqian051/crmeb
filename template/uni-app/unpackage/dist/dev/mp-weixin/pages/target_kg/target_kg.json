@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "设置健康目标",
+  "usingComponents": {
+    "x-calliper": "/uni_modules/x-calliper/components/x-calliper/x-calliper"
+  }
+}

@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Medium';
+	src: url('https://maiji-public-prod.oss-cn-beijing.aliyuncs.com/SourceHanSansCN-Medium.otf');
+}
+ 
+ 
+@font-face {
+	font-family: 'Regular';
+	src: url('https://maiji-public-prod.oss-cn-beijing.aliyuncs.com/SourceHanSansCN-Regular.otf');
+}
+
+.Medium {
+	font-family: 'Medium';
+}
+
+.Regular {
+	font-family: 'Regular';
+}
+	
+.w-e-text-container {
+	font-family: 'Medium','Regular';
+}
+

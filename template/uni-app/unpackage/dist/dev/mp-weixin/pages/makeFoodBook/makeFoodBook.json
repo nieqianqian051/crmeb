@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "定制食谱",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "ui-echarts": "/uni_modules/ui-echarts/components/ui-echarts/ui-echarts",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "calendar-temp": "/components/calendarTemp",
+    "screen-pop-temp": "/components/screenPop"
+  }
+}

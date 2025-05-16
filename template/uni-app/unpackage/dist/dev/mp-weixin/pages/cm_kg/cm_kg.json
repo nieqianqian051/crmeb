@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "身高/体重",
+  "usingComponents": {
+    "x-calliper": "/uni_modules/x-calliper/components/x-calliper/x-calliper"
+  }
+}
