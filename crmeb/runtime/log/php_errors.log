@@ -1,0 +1,72 @@
+[06-May-2025 03:44:21 Asia/Shanghai] PHP Fatal error:  Uncaught ReflectionException: Class think\Config does not exist in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php:376
+Stack trace:
+#0 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(376): ReflectionClass->__construct('think\\Config')
+#1 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(252): think\Container->invokeClass('think\\Config', Array)
+#2 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(131): think\Container->make('think\\Config')
+#3 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(513): think\Container->get('config')
+#4 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(523): think\Container->__get('config')
+#5 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(449): think\App->load()
+#6 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(110): think\App->initialize()
+#7 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(94): think\Conso in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php on line 378
+[06-May-2025 03:44:21 Asia/Shanghai] PHP Fatal error:  Uncaught ReflectionException: Class think\Config does not exist in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php:376
+Stack trace:
+#0 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(376): ReflectionClass->__construct('think\\Config')
+#1 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(252): think\Container->invokeClass('think\\Config', Array)
+#2 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(131): think\Container->make('think\\Config')
+#3 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(513): think\Container->get('config')
+#4 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(523): think\Container->__get('config')
+#5 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(449): think\App->load()
+#6 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(110): think\App->initialize()
+#7 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(94): think\Conso in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php on line 378
+[06-May-2025 03:44:21 Asia/Shanghai] PHP Fatal error:  Uncaught ReflectionException: Class think\Config does not exist in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php:376
+Stack trace:
+#0 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(376): ReflectionClass->__construct('think\\Config')
+#1 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(252): think\Container->invokeClass('think\\Config', Array)
+#2 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(131): think\Container->make('think\\Config')
+#3 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(513): think\Container->get('config')
+#4 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(523): think\Container->__get('config')
+#5 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(449): think\App->load()
+#6 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(110): think\App->initialize()
+#7 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(94): think\Conso in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php on line 378
+[06-May-2025 03:46:13 Asia/Shanghai] PHP Fatal error:  Uncaught ReflectionException: Class think\Config does not exist in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php:376
+Stack trace:
+#0 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(376): ReflectionClass->__construct('think\\Config')
+#1 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(252): think\Container->invokeClass('think\\Config', Array)
+#2 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(131): think\Container->make('think\\Config')
+#3 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(513): think\Container->get('config')
+#4 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(523): think\Container->__get('config')
+#5 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(449): think\App->load()
+#6 /var/www/html/crmeb/vendor/topthink/framework/src/think/Http.php(186): think\App->initialize()
+#7 /var/www/html/crmeb/vendor/topthink/framework/src/think/Http.php(163): think\Http->init in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php on line 378
+[06-May-2025 03:46:15 Asia/Shanghai] PHP Fatal error:  Uncaught ReflectionException: Class think\Config does not exist in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php:376
+Stack trace:
+#0 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(376): ReflectionClass->__construct('think\\Config')
+#1 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(252): think\Container->invokeClass('think\\Config', Array)
+#2 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(131): think\Container->make('think\\Config')
+#3 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(513): think\Container->get('config')
+#4 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(523): think\Container->__get('config')
+#5 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(449): think\App->load()
+#6 /var/www/html/crmeb/vendor/topthink/framework/src/think/Http.php(186): think\App->initialize()
+#7 /var/www/html/crmeb/vendor/topthink/framework/src/think/Http.php(163): think\Http->init in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php on line 378
+[06-May-2025 03:46:47 Asia/Shanghai] PHP Fatal error:  Uncaught ReflectionException: Class think\Config does not exist in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php:376
+Stack trace:
+#0 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(376): ReflectionClass->__construct('think\\Config')
+#1 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(252): think\Container->invokeClass('think\\Config', Array)
+#2 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(131): think\Container->make('think\\Config')
+#3 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(513): think\Container->get('config')
+#4 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(523): think\Container->__get('config')
+#5 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(449): think\App->load()
+#6 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(110): think\App->initialize()
+#7 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(94): think\Conso in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php on line 378
+[06-May-2025 03:47:11 Asia/Shanghai] PHP Warning:  require(/var/www/html/crmeb/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/crmeb/public/index.php on line 34
+[06-May-2025 03:47:11 Asia/Shanghai] PHP Fatal error:  require(): Failed opening required '/var/www/html/crmeb/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/crmeb/public/index.php on line 34
+[06-May-2025 03:47:18 Asia/Shanghai] PHP Fatal error:  Uncaught ReflectionException: Class think\Config does not exist in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php:376
+Stack trace:
+#0 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(376): ReflectionClass->__construct('think\\Config')
+#1 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(252): think\Container->invokeClass('think\\Config', Array)
+#2 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(131): think\Container->make('think\\Config')
+#3 /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php(513): think\Container->get('config')
+#4 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(523): think\Container->__get('config')
+#5 /var/www/html/crmeb/vendor/topthink/framework/src/think/App.php(449): think\App->load()
+#6 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(110): think\App->initialize()
+#7 /var/www/html/crmeb/vendor/topthink/framework/src/think/Console.php(94): think\Conso in /var/www/html/crmeb/vendor/topthink/framework/src/think/Container.php on line 378
